@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+
+:root{
+    --background: 216 52% 0%;
+    --foreground: 216 11% 100%;
+    --muted: 216 5% 7%;
+    --muted-foreground: 216 12% 62%;
+    --popover: 216 52% 0%;
+    --popover-foreground: 216 11% 100%;
+    --card: 216 52% 0%;
+    --card-foreground: 216 11% 100%;
+    --border: 216 3% 15%;
+    --input: 216 3% 15%;
+    --primary: 216 62% 11%;
+    --primary-foreground: 216 62% 71%;
+    --secondary: 216 10% 14%;
+    --secondary-foreground: 216 10% 74%;
+    --accent: 216 16% 22%;
+    --accent-foreground: 216 16% 82%;
+    --destructive: 3 84% 48%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 216 62% 11%;
+    --chart-1: 216 62% 11%;
+    --chart-2: 216 10% 14%;
+    --chart-3: 216 16% 22%;
+    --chart-4: 216 10% 17%;
+    --chart-5: 216 65% 11%;
+}
