@@ -1,6 +1,7 @@
-import Header from "./components/Header.vue";
+import Skil from "./components/Skil.vue";
 import WelcomeItem from "./components/WelcomeItem.vue";
 
 export const routes = [
-    {path:'/', component:WelcomeItem}
+    {path:'/', component:WelcomeItem},
+    {path:'/skil', component:Skil}
 ]

@@ -17,13 +17,13 @@
             <RouterLink to="/" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 hover:text-blue-700" aria-current="page">Home</RouterLink>
             </li>
             <li>
-            <a href="#" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 hover:text-blue-700">About</a>
+            <RouterLink to="/skil" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 hover:text-blue-700">Skills</RouterLink>
             </li>
             <li>
-            <a href="#"class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 hover:text-blue-700">Services</a>
+            <RouterLink to="/experience" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 hover:text-blue-700">Experiences</RouterLink>
             </li>
             <li>
-            <a href="#" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 hover:text-blue-700">Contact</a>
+            <RouterLink to="/contact" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 hover:text-blue-700">Contact</RouterLink>
             </li>
         </ul>
         </div>
@@ -31,5 +31,6 @@
     </nav>
 </template>
 <script setup>
-import Logo from '../assets/img/jin woo.jfif';
+    import { RouterLink } from 'vue-router';
+    import Logo from '../assets/img/jin woo.jfif';
 </script>
